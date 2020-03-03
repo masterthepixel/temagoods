@@ -11,7 +11,7 @@ import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
 const Wrapper = styled.div`
-  ${tw`flex items-center justify-center flex-col h-screen`}
+  ${tw`flex flex-col items-center justify-center h-screen`}
 `;
 
 const Main = tw.div`
@@ -48,7 +48,7 @@ const Footer = styled.footer`
 
 const IndexPage = () => (
   <Wrapper>
-    <SEO title="Home" />
+    <SEO title="Tema Goods | Sneakers and Fashion Clothing" />
     <Main>
       <Logos>
         <GatsbyIcon />
@@ -56,11 +56,11 @@ const IndexPage = () => (
         <StyledComponentsIcon />
         <StorybookIcon />
       </Logos>
-      <Heading>Hello, world!</Heading>
-      <Text>Welcome to the Gatsby Tailwind CSS + Styled-Components + Storybook Starter.</Text>
+      <Heading>Hello, Dennis!</Heading>
+      <Text>Welcome to the Gatsby Tailwind CSS + Styled-Components + Storybook Starter theme for TemaGoods.com.</Text>
       <Footer>
         <a
-          href="https://github.com/denvash/gatsby-styled-tailwind-storybook-starter"
+          href="#"
           target="_blank"
           rel="noopener noreferrer">
           <GithubIcon />
